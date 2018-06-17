@@ -1,3 +1,4 @@
+
 var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
 
@@ -48,7 +49,7 @@ document.onkeyup = function (event) {
 		"<p>Wins: " + wins + "</p>" +
 		"<p>Losses: " + losses + "</p>" +
 		"<p>Guesses left: " + guessesLeft + "</p>" +
-		"<p>Your guesses so far: " + lettersGuessed + "</p>";
+		"<p>Guesses so far: " + lettersGuessed + "</p>";
 
 	document.querySelector("#game").innerHTML = html;
 
